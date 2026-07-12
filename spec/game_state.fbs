@@ -149,7 +149,7 @@ table CarState {
     is_boosting: bool;
     boosting_time: float;
     is_supersonic: bool;
-    supersonic_time: float;
+    supersonic_grace_timer: float;
     handbrake_val: float;
     is_auto_flipping: bool;
     auto_flip_timer: float;
